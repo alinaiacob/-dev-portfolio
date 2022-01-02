@@ -1,0 +1,65 @@
+
+.navbar-flex{
+    display:flex;
+    justify-content: space-between;
+    background-color: #ffc4b1;
+    color: black;
+    width:100vw;
+    position: relative;
+    padding: 40px;
+}
+.navbar-flex h1{
+    font-family: 'Parisienne', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-flex h4{
+    font-size: 25px;
+    font-family: 'Yellowtail', cursive;
+}
+.link{
+    text-decoration: none;
+    font-size:17px;
+    font-weight: bold;
+    color:black;
+    opacity:1; margin: 0 15px;
+}
+#link,#blue{
+    color:black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1 .color{
+    color:#957be8;;
+}
+.logoBottom{
+    margin-top: 10px;
+    margin-right:10px ;
+   
+}
+.green{
+    color:#64a67d;
+}
+
+@media only screen and (min-width:800px){
+    .navbar-right{
+        position: absolute;
+        right: 50px;
+       }
+ #blue{
+    color:#957be8;;  
+ }
+}
+ 
+    
+
+
+

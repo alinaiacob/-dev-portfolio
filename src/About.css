@@ -1,0 +1,75 @@
+.about{
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+
+    background-color: #957be8;
+}
+
+.about h1{
+    color: white;
+    text-align: start;
+    align-self: flex-start;
+}
+.about p{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    opacity: 0.9;
+   width: 90%;
+    align-self: center;
+   text-align: center;
+    padding: 10px 20px;
+    
+}
+.about .highlight{
+    color:white;
+}
+.about button{
+    background-color: #ffc4b1;
+    color: black;
+    font-family: 'Poppins',sans-serif;
+    border:none;
+    border-radius: 50px;
+    padding:15px 30px;
+    font-size: 18px;
+    text-align: center;
+   width: 300px;
+   margin-top:15px;
+  font-weight: bolder;
+   transition: 0.3s all ease-in-out;
+  
+   
+}
+.about button:hover{
+    background: #64a67d;
+    color: white;
+    letter-spacing: 0.05rem;
+}
+.about__text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen  and (max-width:800px){
+    .about p{
+        width: 100%;;
+        font-size: 14px;
+        text-align: center;
+    }
+    .about button{
+        align-self: center;
+       margin-left: 0px;
+       width: 200px;
+    }
+    .about h1{
+    
+        font-size: 30px;
+        letter-spacing: 0.05rem;
+    }
+}

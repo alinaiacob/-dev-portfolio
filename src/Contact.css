@@ -1,0 +1,145 @@
+.contact{
+  
+    width:100vw;
+    padding:  40px ;
+    display: flex;
+    background-color: #fec3b1;
+    color:white;
+   flex-direction: column;
+   justify-content: space-between;
+  
+  
+  
+}
+.contactTop{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+   
+  
+    
+   
+}
+.contactCenter{
+    display: flex;
+  align-items: center;
+    justify-content: space-between;
+    
+}
+.contactRight>img{
+    width: 400px;
+    object-fit: contain;
+}
+
+.contact h1{
+    font-size: 40px;
+    letter-spacing: 0.05rem;
+
+
+    text-align: center;
+    color:black ;
+    opacity: 0.9;
+}
+.contactTop >p{
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+}
+.contact .email,.contact .message ,.contact .name{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    
+}
+.contact .email p,.contact .message p,.contact .name p{
+    font-size: 17px;
+    color:black;
+    position: relative;
+    top:13px;
+}
+.contact .email >input,.contact .name input{
+    font-size: 16px;
+    outline-width: 0px;
+    border:none;
+    background-color:white ;
+    border-radius: 30px;
+    padding: 10px;
+    width: 30vw;
+    margin-top: 3px;
+    min-width: 300px;
+   transition: 0.3s all ease-in;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+.contact input::placeholder{
+    font-family: "Poppins",sans-serif;
+    letter-spacing: 0.05rem;
+}
+
+.textarea{
+    border-radius: 10px;
+    margin-top: 3px;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    border:none;
+    font-family: "Poppins",sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.3s all ease-in;
+    width: 40vw;
+    min-width: 300px;
+    
+}
+.contact input:focus,.contact textarea:focus{
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.contactBottomSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contactBottomSection >button{
+    
+    background: #957be8;
+    border:none;
+    border-radius: 30px;
+    padding:15px 40px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    color: white;
+    min-width: 200px;
+    align-self: center;
+    margin-top: 30px;
+   
+}
+.contactBottomSection >button:hover{
+   
+    background-color: #64a67d;
+    color: white;
+}
+.contactRight img{
+    width: 500px;
+    object-fit: contain;
+}
+
+@media only screen and (max-width:800px) {
+  .contact{
+      justify-content: space-between;
+  }
+    .contact__FirstSection{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+   .contactRight img{
+       display: none;
+   }
+   
+}

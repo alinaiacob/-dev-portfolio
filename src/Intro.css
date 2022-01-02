@@ -1,0 +1,163 @@
+.intro{
+    display: flex;
+    justify-content: space-between;
+  
+  
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+    padding-left: 60px;
+    background-color: #fec3b1;
+    z-index: 10;
+   }
+
+
+
+
+.introSectionLeft{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.introSectionRow{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.introSectionRow>p{
+  font-size:18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.introSectionRow>img{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.introSectionColumn{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.introSectionColumn>h3{
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+.introSectionColumn>p{
+  margin-top: 10px;
+  font-size: 20px;
+  opacity: 0.8;
+ 
+}
+.introSectionColumn >h4{
+  color:#957be8;
+  font-size: 25px;
+  letter-spacing: 0.05rem;
+  font-weight: 600;
+  
+}
+.introSectionColumn h4 span{
+  color:black;
+}
+.introSectionColumn .text{
+
+  font-weight: 600;
+  font-size: 15px;
+}
+.intro__name{
+  font-weight: 900;
+  font-size: 60px;
+
+  
+ 
+
+}
+.intro__name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introSectionColumn button{
+  margin-top: 10px;
+  padding:10px;
+  border:none;
+ 
+  background:#957be8;
+  color:white;
+  
+  border-radius: 30px;
+  width: 200px;
+  font-size: 17px;
+  font-weight: 550;
+  letter-spacing: 0.1rem;
+  font-family: 'Poppins',sans-serif;
+  transition: 0.3s all ease-in-out;
+  align-self: center;
+   margin-top:50px;
+}
+.introSectionColumn>button:hover{
+  background-color: #64a67d;
+  color:black;
+}
+.introSectionRight{
+  display: flex;
+
+  
+
+}
+
+
+.introJobs h4{
+  color:#957be8;
+  font-size: 25px;
+  letter-spacing: 0.05rem;
+  font-weight: 600;
+ ;
+}
+.introJobs h4 span{
+  margin:0px 5px;
+}
+.intro__secondSectionRightImg{
+  height: 450px;
+  object-fit: contain;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 50%;
+  padding: 20px;
+  transition: 0.3s all ease-in-out;
+
+
+}
+.intro__secondSectionRightImg:hover{
+  transform: scale(1.07);
+}
+@media only screen and (max-width:900px){
+  .intro__secondSection{
+  flex-direction: column;
+  }
+  .intro{
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .intro__secondSectionRightImg{
+    height: 40vh;
+    object-fit: contain;
+    margin-top: 20px;
+  }
+  .introSectionRow{
+    align-self: center;
+    text-align: center;
+  }
+  .intro h2{
+    font-size: 40px;
+  }
+}
